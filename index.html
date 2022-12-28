@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="chanyangkim">
+    <meta name="description" content="Portpolio, Float, Montblanc Template">
+    <title>김찬양 | 웹사이트</title>
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./images/favicon/montblanc_fav32.png">
+    <link rel="apple-touch-icon=precomposed" href="./images/favicon/montblanc_fav144.png">
+    <link rel="stylesheet" href="./css/notosans_kr_CDN.css">
+    <!-- 페이지css -->
+    <link rel="stylesheet" href="./css/jquery.fullPage.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/project.css">
+    <!-- <link rel="stylesheet" href="./css/light.css"> -->
+    <!-- js 플러그인 파일 -->
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <!-- 접두어 프리패스 -->
+    <script src="./js/prefixfree.min.js"></script> 
+    <!-- 페이지js -->
+    <script src="./js/main.js"></script>
+    <!-- 3. 제이쿼리 플러그인 추가 -->
+    <script src="./js/jquery.fullPage.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <!-- Tab Menu -->
+            <nav>
+                <div id="menu_gnb">
+                    <ul class="gnb">
+                        <li data-menuanchor="section1" class="active">
+                            <a href="#section1" onclick="tab_menu(0);">Home</a>
+                        </li>
+                        <li data-menuanchor="section2">
+                            <a href="#section2" onclick="tab_menu(1);">프론트엔드</a>
+                        </li>
+                        <li data-menuanchor="section3">
+                            <a href="#section3" onclick="tab_menu(2);">백엔드</a>
+                        </li>
+                        <li data-menuanchor="section4">
+                            <a href="#section4" onclick="tab_menu(3);">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        <!-- /Tab Menu -->
+        </header>
+        <main id="fullpage">
+            <section class="section" id="sec01">
+                <div>
+                    <h2>웹 개발자 포트폴리오</h2>
+                    <p>
+                        안녕하세요. 김찬양입니다.
+                        오늘에 만족하지 않고 더 나은 내일을 위해 
+                        항상 스스로 개발하는 웹 개발자가 되고 싶습니다.
+                    </p>
+                    <button type="button">
+                        <a href="https://github.com/louis0320/portfolio" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+                    </button>
+                </div>
+            </section>
+            <section class="section" id="sec02">
+                <div>
+                    <div class="slide">
+                        <h2>
+                            Netflix
+                        </h2>
+                        <div class="img_part">
+                            <a href="http://kimchanyang.shop/react/netflix/#/" target="_blank"><img src="./images/netflix.png" alt="넷플릭스"></a>
+                        </div>
+                        <div class="text_part">
+                            <p>
+                                [개인 프로젝트] 리액트 SPA를 활용한 프론트엔드 작업
+                            </p>
+                            <button type="button">
+                                <a href="http://kimchanyang.shop/react/netflix/#/" target="_blank">코딩 페이지</a>
+                            </button> 
+                            <button type="button">
+                                <a href="http://kimchanyang.shop/modoo/kurly/" target="_blank">기획서</a>
+                            </button>
+                            <button type="button">
+                                <a href="http://kimchanyang.shop/modoo/kurly/" target="_blank">깃허브</a>
+                            </button>
+                    </div>
+                    <div class="slide">
+                        <h2>
+                            마켓컬리 홈페이지 
+                        </h2>
+                        <div class="img_part">
+                            <a href="http://kimchanyang.shop/modoo/kurly/" target="_blank"><img src="./images/kurly.png" alt="컬리"></a>
+                        </div>
+                        <div class="text_part">
+                            <p>
+                                Flex 클론 코딩 - 개인 프로젝트
+                            </p>
+                            <button type="button">
+                                <a href="http://kimchanyang.shop/modoo/kurly/" target="_blank">코딩 페이지</a>
+                            </button> 
+                            <button type="button">
+                                <a href="http://kimchanyang.shop/modoo/kurly/" target="_blank">기획서</a>
+                            </button>
+                            <button type="button">
+                                <a href="http://kimchanyang.shop/modoo/kurly/" target="_blank">깃허브</a>
+                            </button>
+                    </div>
+                    <div class="slide">
+                        <h2>
+                            롤링파스타 홈페이지 
+                        </h2>
+                        <div class="img_part">
+                            <a href="http://kimchanyang.shop/modoo/rollingpasta/" target="_blank"><img src="./images/pasta.png" alt="파스타"><a >
+                        </div>
+                        <div class="text_part">
+                            <p>
+                                Float 클론 코딩 - 개인 프로젝트
+                            </p>
+                            <button type="button">
+                                <a href="http://kimchanyang.shop/modoo/rollingpasta/" target="_blank">코딩 페이지</a>
+                            </button> 
+                            <button type="button">
+                                <a href="http://kimchanyang.shop/react/pasta/#/" target="_blank">리액트 SPA 페이지</a>
+                            </button> 
+                            <button type="button">
+                                <a href="http://kimchanyang.shop/modoo/kurly/" target="_blank">기획서</a>
+                            </button>
+                            <button type="button">
+                                <a href="http://kimchanyang.shop/modoo/kurly/" target="_blank">깃허브</a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <h2>
+                            SIITA 홈페이지 
+                        </h2>
+                        <div class="img_part">
+                            <a href="http://kimchanyang.shop/modoo/siita/"><img src="./images/siita.png" alt="시타"></a>
+                        </div>
+                        <div class="text_part">
+                            <p>
+                                그룹프로젝트
+                            </p>
+                            <button type="button">
+                                <a href="http://kimchanyang.shop/modoo/siita/" target="_blank">코딩 페이지</a>
+                            </button> 
+                            <button type="button">
+                                <a href="http://kimchanyang.shop/modoo/kurly/" target="_blank">기획서</a>
+                            </button>
+                            <button type="button">
+                                <a href="http://kimchanyang.shop/modoo/kurly/" target="_blank">깃허브</a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <h2>
+                            승우 여행사 홈페이지
+                        </h2>
+                        <div class="img_part">
+                            <a href="http://kimchanyang.shop/modoo/tour/" target="_blank"><img src="./images/tour.png" alt="투어"></a>
+                        </div>
+                        <div class="text_part">
+                            <p>
+                                반응형 사이트
+                            </p>
+                            <button type="button">
+                                <a href="http://kimchanyang.shop/modoo/tour/" target="_blank">코딩 페이지</a>
+                            </button> 
+                            <button type="button">
+                                <a href="http://kimchanyang.shop/modoo/kurly/" target="_blank">기획서</a>
+                            </button>
+                            <button type="button">
+                                <a href="http://kimchanyang.shop/modoo/kurly/" target="_blank">깃허브</a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <h2>
+                            서울대공원 홈페이지
+                        </h2>
+                        <div class="img_part">
+                            <a href="http://kimchanyang.shop/modoo/zoo/" target="_blank"><img src="./images/zoo.png" alt="서울대공원"></a>
+                        </div>
+                        <div class="text_part">
+                            <p>
+                                모바일 사이트
+                            </p>
+                            <button type="button">
+                                <a href="http://kimchanyang.shop/modoo/zoo/" target="_blank">코딩 페이지</a>
+                            </button> 
+                            <button type="button">
+                                <a href="http://kimchanyang.shop/modoo/kurly/" target="_blank">기획서</a>
+                            </button>
+                            <button type="button">
+                                <a href="http://kimchanyang.shop/modoo/kurly/" target="_blank">깃허브</a>
+                            </button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="sec03">
+                <div class="slide">
+                    <div class="flex">
+                        <h2>
+                            S.I VILLAGE 홈페이지 
+                        </h2>
+                        <div class="img_part">
+                            <a href="http://chanyangkim.cafe24.com/" target="_blank"><iframe width="764" height="430" src="https://www.youtube.com/embed/G_FgkFwlrSg" title="S.I VILLAGE CRUD 게시판 포트폴리오" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a>
+                        </div>
+                        <div class="text_part">
+                            <p>
+                                CRUD - 그룹 프로젝트
+                            </p>
+                            <p>
+                                Java, JSP, HTML, CSS, javaScript, Tomcat, OracleDB
+                            </p>
+                            <button type="button">
+                                <a href="http://chanyangkim.cafe24.com/" target="_blank">코딩 페이지&nbsp;&nbsp;&nbsp;<i class="fa fa-desktop" aria-hidden="true"></i></a>
+                            </button> 
+                            <button type="button">
+                                <a href="http://kimchanyang.shop/pdf/sivillage.pdf" target="_blank">기획서&nbsp;&nbsp;&nbsp;<i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+                            </button>
+                            <button type="button">
+                                <a href="https://github.com/louis0320/sivillage" target="_blank">깃허브&nbsp;&nbsp;&nbsp;<i class="fa fa-github" aria-hidden="true"></i></a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section contact">
+                <h2>더 알아보기</h2>
+                <p>
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>  zldqjrj@naver.com
+                </p>
+                <p>
+                    <i class="fa fa-mobile" aria-hidden="true"></i>  010-7649-3293
+                </p>
+            </section>
+        </main>
+        <footer class="section fp-auto-height">
+            <h2>본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.</h2>
+            <p>
+                &copy;2022 CHANYANG KIM ALL RIGHTS RESERVED.,
+            </p>
+        </footer>
+    </div>
+<script src="./js/tab.js"></script>
+</body>
+</html>

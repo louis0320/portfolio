@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* 이미지 슬라이드 영역 */
+.slideshow_container {
+    max-width: 640px;
+    margin: 0 auto;
+    /* 위치기준값 */
+    position: relative;
+}
+.slideshow_container img {
+    width: 100%;
+}
+.slideshow_container .slide .txt {
+    width: 100%;
+    color: #20727d;
+    text-shadow: 0 0 2px #fff;
+    font-size: 1.6rem;
+    padding: 16px 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -2px;
+    font-weight: 600;
+    /* 포지션설정 */
+    position: absolute;
+    top: 0;
+}
+.slideshow_container .slide .number_text {
+    width: 100%;
+    color: #6a5050;
+    font-size: 0.875rem;
+    font-weight: 600;
+    padding: 30px 0;
+    text-align: center;
+    font-family: 'Play', sans-serif;
+     /* 포지션설정 */
+     position: absolute;
+     bottom: 8px;
+}
+
+/* DOT DOT DOT  */
+.circle {
+    margin: 8px 0;
+    text-align: center;
+}
+.circle .dot {
+    width: 14px;
+    height: 14px;
+    margin: 0 24;
+    background-color: #ccc;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.6s;
+}
+.circle .dot:hover {
+    background-color: #333;
+}
